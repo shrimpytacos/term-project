@@ -34,15 +34,26 @@ Choose this path if you are excited by tool building and the prospect of sharing
 ### Data Curator
 
 Choose this path if you are excited about open data, you are organized – archival even –, you are investigative, and logically consistent, and you like the thought of publishing a public data repository that could be of use to researchers, journalists, students and other engaged citizens.
--	Deliverable: a repository containing a collection of spatial data layers containing all relevant metadata and previewed in an interactive atlas. The following conditions apply:
-  -	You can choose one of the following to delimit your data investigation:
-    -	A single area (*excluding* the island of Montreal) to collect minimum 10 different geodata layers on. The reason for which you are collecting data for a given area must be justified (i.e. you must demonstrate that there is not already a data portal or source that aggregates such data in such a way). Consider areas (administrative units or areas of interest) for which intel is sparse.
-    -	A single theme. In this scenario, the goal is to construct a coherent database that covers a large extent or series of related extents (i.e. all major cities in X country). In this scenario, the goal will likely involve data concatenation (combining datasets to create a new dataset or series of datasets that are internally consistent). Like the first option, you must demonstrate that such a dataset does not already exist or is not publicly available.
-  -	Your data could be raster, vector, classified satellite imagery, georeferenced data tables, etc. It must be geographic data that is published in an immediately usable form. Your public should be able to be able to easily use your data and know what to expect from it.
-  -	You must demonstrate your data wrangling work (to be done with Python code) inside a Python notebook or in Python scripts. While your public may not run this code, it provides a form of data lineage/documentation for what was done to it. It can also be useful in cases where such datasets need to be processed again (e.g. when new versions are published). 
-  -	You must publish a metadata file (md/txt) for each published data set/layer. You metadata should include at least the following wherever applicable: summary, spatial data type, source/source url(s), date collected, date published, an explanation of each attribute, spatial resolution, coordinate system, projection, extent, use limitations/license. 
-  -	The value added could involve wrangling a dataset to make it usable (applying a relevant classification scheme, etc.)
-  -	Your data should be published in a Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language, containing the premise of your data curation project, a rationale for why it is necessary, a description of the data contained, etc. Your repo should also contain an interactive Python notebook file (.ipynb) and an interactive atlas that displays your data layer(s) (there are several ways of doing this which are demonstrated to you throughout the course).
+- Deliverable: a repository containing a collection of spatial data layers containing all relevant metadata and previewed in an interactive atlas. The following conditions apply:
+  - You can choose one of the following to delimit your data investigation:
+    - A single area (*excluding* the island of Montreal) to collect minimum 10 different geodata layers on. The reason for which you are collecting data for a given area must be justified (i.e. you must demonstrate that there is not already a data portal or source that aggregates such data in such a way). Consider areas (administrative units or areas of interest) for which intel is sparse.
+    - A single theme. In this scenario, the goal is to construct a coherent database that covers a large extent or series of related extents (i.e. all major cities in X country). In this scenario, the goal will likely involve data concatenation (combining datasets to create a new dataset or series of datasets that are internally consistent). Like the first option, you must demonstrate that such a dataset does not already exist or is not publicly available.
+  -	Your data could be raster, vector, classified satellite imagery, georeferenced data tables, etc. It must be geographic data that is published in an immediately usable form. Your public should be able to easily use your data and know what to expect from it.
+  -	You must demonstrate your data wrangling work (to be done with Python code) inside a Python notebook or in Python scripts. While your public may not run this code, it provides a form of data lineage/documentation for what was done to it. It can also be useful in cases where such datasets need to be processed again (e.g. when new versions are published). Your code must work, and be organized and documented. 
+  -	You must publish a metadata file (md/txt) for each data set/layer. You metadata should include at least the following wherever applicable:
+    -	summary
+    -	spatial data type
+    -	source/source url(s)
+    -	date collected
+    -	date published
+    -	an explanation of each attribute
+    -	spatial resolution
+    -	coordinate system
+    -	projection (if projected)
+    -	extent
+    -	use limitations/license. 
+  -	Note that the value added in this project scenario could involve wrangling a dataset to make it usable (applying a relevant classification scheme, etc.)
+  -	Your data should be published in a Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language, containing the premise of your data curation project, a rationale for why it is necessary, a description of the data contained, etc. Your repo should also contain an interactive Python notebook file (.ipynb) and an **interactive atlas that displays your data layer(s)** (there are several ways of doing this which are demonstrated to you throughout the course).
 
 
 ## Marking scheme
