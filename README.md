@@ -19,7 +19,7 @@ Choose this if you have a keen and critical curiosity for the social and environ
 
 ### Python Programmer
 
-Choose this path if you are excited by tool building and the prospect of sharing ready-made functionality with your future self and others, if you enjoy programming, if you abhor redundancy and love making things efficient, modular and useful, if you understand (or plan on understanding) functions well and if you are can write articulate and efficient technical documentation and instructions that are accessible to a wide audience.
+Choose this path if you are excited by tool building and the prospect of sharing ready-made functionality with your future self and others, if you enjoy programming, if you abhor redundancy and love making things efficient, modular and useful, if you understand (or plan on understanding) functions well and if you can write articulate and efficient technical documentation and instructions that are accessible to a wide audience.
 
 - Deliverable: A library of GIS and mapping tools with attached documentation. Guidelines and constraints are as follows:
   - Your tasks involve creating a series of tools which you can easily source from for performing data wrangling, GIS, visualization and geospatial data exploration tasks.
