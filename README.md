@@ -6,7 +6,7 @@ This document contains instructions and guidelines for carrying out your final t
 
 ### Researcher
 
-Choose this if you have a keen and critical curiosity for the social and environmental processes around you, you don't mind exploring data through commands, and you like the prospect of doing razer-sharp research/investigations that are precise, reproducible and free of untraceable human error (i.e. using computational research techniques, some of which have been or will be seen in this class). You like data and data visualization, and would like to explore it some more.
+Choose this if you have a keen and critical curiosity for the social and environmental processes around you, you don't mind exploring data through commands, and you like the prospect of doing razor-sharp research/investigations that are precise, reproducible and free of untraceable human error (i.e. using computational research techniques, some of which have been or will be seen in this class). You like data and data visualization, and would like to explore it some more.
 
 - Deliverable: A computational essay that carries the reader through an analysis by mixing prose, code, and computational results. The essay and related materials (input data, etc.) are to be published in a Github repository that can be set to either public or private. The guidelines and constraints are as follows:
   -	The choice of topic is up to you.
