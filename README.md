@@ -1,8 +1,16 @@
 # Term project outline
 
-This document contains instructions and guidelines for carrying out your final term project. Use it as an opportunity to explore what interests you, based on the options below.
+This document contains instructions and guidelines for carrying out your final term project. Use it as an opportunity to explore what interests you, within the constraints outlined in one of the three options below:
 
-## Choose your adventure
+## Proposal
+
+You must **submit a 200-300 word proposal** that describes what project type and topic you plan on exploring, and where you intend to source your data from (if applicable).
+- The project proposal is due **March 8, 2023 at 14:45** (submit via push to your term-project repository)
+- It should be written up in a markdown file containing relevant formatting and any additional media.
+
+## Project: Choose your adventure
+
+You must fork from this term-project repo to your own personal Github user account and submit your personal term project.
 
 ### :bulb: Researcher
 
@@ -14,8 +22,9 @@ Choose this if you have a keen and critical curiosity for the social and environ
   -	Minimum 750, maximum 1000 words (excluding bibliography) in English or French.
   -	You must cite at least 3 papers related to the topic you have chosen. At least one of these papers must specifically relate to methodologies that can inform your work.
   -	Depending on your strengths, you can engage with your data through the lens of exploratory data analysis (i.e. using mostly visualization and descriptive summary statistics), or - if you are more statistically inclined - delve deeper by engaging with more advanced quantitative research methods (clustering, etc. using spatial statistics methods made available by libraries such as PySal, or more generic libraries like scipy, machine-learning algorithms provided by scikit-learn, or nltk for those interested in text data, etc.).
-  -	The data you use is up to you. You can use the population data seen in this class, but if you do so, you **must join at least one other field** of information to it for integration into your analysis (recall the census analyzer explored in class). In addition to population data, it is recommended that you explore another data set (however, you could just explore population data if you have a particular interest in correlations between different population variables, for example).
-  -	Your work is to be published in an interactive Python (Jupyter) notebook online so that readers can interactively engage with your code and thought process. It must be accompanied by a README.md file that briefly introduces your project and which contains a link to open your project in an interactive session using technologies like [MyBinder](https://mybinder.org/) or [Voilà](https://voila-gallery.org/).
+  -	The data you use is up to you. You can use the population data seen in this class, but if you do so, you **must join at least one other field** of information to it for integration into your analysis (recall the census analyzer explored in class). You may also integrate another data set, in addition to the population data.
+  - Your code notebook must be published online in an interactive session using [MyBinder](https://mybinder.org/) (at the least), [Voilà](https://voila-gallery.org/) \[[1](https://voila.readthedocs.io/en/stable/using.html), [2](https://voila.readthedocs.io/en/stable/deploy.html#deployment-on-binder)\] (ideal), or [Streamlit](https://streamlit.io/cloud) (exceptional). This is so that readers can interactively engage with your code and thought process.
+  - Your code notebook must be accompanied by a README.md file that *briefly* introduces your project and points the reader to how to engage with your code notebook material (how to download/deploy, how to run).
 
 ### :wrench: Python Programmer
 
@@ -26,14 +35,14 @@ Choose this path if you are excited by tool building and the prospect of sharing
   - Your library must be coherent, and make sense as a package (i.e. do not simply cobble together random functions). 
   - Your code must be accessible via function calls and organized inside a module or series of modules.
   -	You must create at minimum 10 separate functions that do not depend on each other (obviously you can have as many dependent or nested functions as you like). You cannot simply package existing methods (e.g. a pandas method) inside your own function and call it a day.
-  - Your functions must be clear about what kind of data they require as inputs. They should be able to accomodate a wide range of input scenarios, and contain proper error handling where relevant (to be seen in an upcoming lab).
-  - At least one of your functions must be a useful geovisualization function. This should generate a static map with all necessary map elements (auto-generated titles, scalebar, etc.). Your viz function must be able to receive geodata of any extent or scale, not just Montreal (for example). It is especially encouraged that you explore adding functionality that can accomodate custom zoom levels, etc.
+  - Your functions must be clear about what kind of data they require as inputs. They should be able to accomodate a wide range of input scenarios, and contain proper error handling where relevant.
+  - At least one of your functions must be a useful geovisualization function. If generating static maps, they must have with all necessary map elements (auto-generated titles, scalebar, etc.). Your viz function must be able to receive geodata of any extent or scale, not just Montreal (for example). It is especially encouraged that you explore adding functionality that can accomodate custom zoom levels, etc.
   -	You must demonstrate relevant use of for loops, conditional statements, positional and keyword arguments, etc.
-  -	Your scripts must be published as a public Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language (English, or multilingual), how to set up and use your code, each function and its required and/or optional parameters (positional, keyword arguments), with links to any relevant external documentation. You may use Github’s Wiki feature if you think the documentation required is complex enough/requires organization into separate pages, but this is not necessary in most cases. You should also fill out all relevant repository fields to make your code as accessible as possible (tags, about panel, etc.)
+  -	Your scripts must be published as a public Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language (English, or multilingual), how to set up and use your code, each function and its required and/or optional parameters (positional, keyword arguments), with links to any relevant external documentation. You may use Github’s Wiki feature if you think the documentation required is complex enough/requires organization into separate pages, but this is not necessary in most cases. You should also fill out all relevant repository fields to make your code as accessible as possible (tags, *about* panel, etc.)
 
 ### :mag_right: Data Curator
 
-Choose this path if you are excited about open data, you are organized – archival even –, you are investigative, and logically consistent, and you like the thought of publishing a public data repository that could be of use to researchers, journalists, students and other engaged citizens.
+Choose this path if you are excited about open data, you are organized and archival, you are investigative, logically consistent, and you like the thought of publishing a public data repository that could be of use to researchers, journalists, students and other engaged citizens.
 - Deliverable: a repository containing a collection of spatial data layers containing all relevant metadata and previewed in an interactive atlas. The following conditions apply:
   - You can choose one of the following to delimit your data investigation:
     - A **single area** (*excluding* the island of Montreal) to collect minimum 10 different geodata layers on. The reason for which you are collecting data for a given area must be justified (i.e. you must demonstrate that there is not already a data portal or source that aggregates such data in such a way). Consider areas (administrative units or areas of interest) for which intel is sparse.
@@ -41,32 +50,18 @@ Choose this path if you are excited about open data, you are organized – archi
   -	Note that the value added in this project scenario could involve wrangling a dataset to make it usable (applying a relevant classification scheme, etc.)
   -	Your data could be raster, vector, classified satellite imagery, georeferenced data tables, etc. It must be geographic data that is published in an immediately usable form. Your public should be able to easily use your data and know what to expect from it.
   -	You must demonstrate your data wrangling work (to be done with Python code) inside a Python notebook or in Python scripts. While your public may not run this code, it provides a form of data lineage/documentation for what was done to it. It can also be useful in cases where such datasets need to be processed again (e.g. when new versions are published). Your code must work, and be organized and documented. 
-  -	You must publish a metadata file (md/txt) for each data set/layer. Your metadata should include at least the following wherever applicable:
-    -	summary/description
-    -	spatial data type
-    -	source/source url(s)
-    -	date collected
-    -	date published
-    -	an explanation of each attribute
-    -	spatial resolution
-    -	coordinate system
-    -	projection (if projected)
-    -	extent
-    -	use limitations/license. 
-  -	Your data should be published in a Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language, containing the premise of your data curation project, a rationale for why it is necessary, a description of the data contained, etc. Your repo should also contain an interactive Python notebook file (.ipynb) and an **interactive atlas that displays your data layer(s)** (there are several ways of doing this which are demonstrated to you throughout the course).
+  -	You must publish a metadata file for each data set/layer. This metadata must be a visible part of your web atlas. Your metadata should include at least the following wherever applicable:
+    -	*summary/description; spatial data type; source/source url(s); date collected; date published; an explanation of each attribute; extent; spatial resolution; coordinate system; projection (if projected); use limitations/license.*
+  -	Your data should be published in a Github repository that contains a README.md file utilizing relevant markdown notation *briefly* explaining the premise of your data curation project, a rationale for why it is necessary, a description of the data contained, etc.
+  - You website should be in an *index.html* file in your repository, which should be [published as Github Page](https://geog-464.github.io/resources/github-page-howto.html).
 
-## Proposal
+## Grading
 
-You must **submit a 200-300 word email** that describes what project type and topic you plan on exploring. Further details on this are provided on Moodle.
-
-## Marking scheme
-
-Grading is based on having met the criteria listed above. Grading will vary based on your chosen adventure. The following applies in addition:
-
-- 0-39: the code does not run and there is no documentation.
-- 40-59: the code does not run, or runs but it does not produce the expected outcome. There is some documentation explaining its logic.
-- 60-69 the code runs and produces the expected output. There is some documentation explaining its logic.
-- 70-79: the code runs and produces the expected output. There is extensive documentation explaining its logic.
-- 80-89: the code runs and produces the expected output. There is extensive documentation, properly formatted, explaining its logic. Clear evidence of skills presented throughout the course.
-- 91-100: all of the above, plus the code contains novel contributions that extend/improve the functionality you were exposed to (e.g. algorithm optimizations, novel methods to perform a task, exceptional writing and research capabilities etc.).
-
+- Proposal (5%)
+- Project (95%), consider the following baseline criteria:
+  - Your code should run without error.
+  - It should produce the intended output.
+  - There should be documentation that explains its logic.
+  - The documentation should be properly formatted.
+  - Your code should reflect what was taught to you in this course.
+  - Your written work should be of publishable quality.
