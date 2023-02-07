@@ -1,20 +1,16 @@
 # Term project outline
 
-This document contains instructions and guidelines for carrying out your final term project. Use it as an opportunity to explore what interests you, within the constraints outlined in one of the three options below:
+This document contains instructions and guidelines for carrying out your final term project. Use it as an opportunity to explore what interests you, within the constraints outlined below:
 
 ## Proposal
 
-You must **submit a 200-300 word proposal** that describes what project type and topic you plan on exploring, and where you intend to source your data from (if applicable).
-- The project proposal is due **March 8, 2023 at 14:45** (submit via push to your term-project repository)
-- It should be written up in a markdown file containing relevant formatting and any additional media.
+You must **submit a 200-300 word proposal** that describes what project type and topic you plan on exploring, and where you intend to source your data from (if applicable). It should be written up in a markdown file containing relevant formatting and any relevant references, links, media and attachments.
 
 ## Project: Choose your adventure
 
-You must fork from this term-project repo to your own personal Github user account and submit your personal term project.
-
 ### :bulb: Researcher
 
-Choose this if you have a keen and critical curiosity for the social and environmental processes around you, you don't mind exploring data through commands, and you like the prospect of doing razor-sharp research/investigations that are precise, reproducible and free of untraceable human error (i.e. using computational research techniques, some of which have been or will be seen in this class). You like data and data visualization, and would like to explore it some more.
+Choose this if you have a keen and critical curiosity for the social and environmental processes around you, you don't mind exploring data through commands, and you like the prospect of doing research/investigations that are precise, reproducible and free of untraceable human error (i.e. using computational research techniques, some of which have been or will be seen in this class). You like data engineering, analysis and visualization, and would like to explore it some more.
 
 - Deliverable: A computational essay that carries the reader through an analysis by mixing prose, code, and computational results. The essay and related materials (input data, etc.) are to be published in a Github repository that can be set to either public or private. The guidelines and constraints are as follows:
   -	The choice of topic is up to you.
@@ -28,7 +24,7 @@ Choose this if you have a keen and critical curiosity for the social and environ
 
 ### :wrench: Python Programmer
 
-Choose this path if you are excited by tool building and the prospect of sharing ready-made functionality with your future self and others, if you enjoy programming, if you abhor redundancy and love making things efficient, modular and useful, if you understand (or plan on understanding) functions well and if you can write articulate and efficient technical documentation and instructions that are accessible to a wide audience.
+Choose this path if you are excited by tool building and the prospect of sharing ready-made functionality with your future self and others, if you enjoy programming, if you are repelled by redundancy and love making things efficient, modular and useful, if you understand (or plan on understanding) functions well and if you can write articulate and efficient technical documentation and instructions that are accessible to a wide audience.
 
 - Deliverable: A library of GIS and mapping tools with attached documentation. Guidelines and constraints are as follows:
   - Your tasks involve creating a series of tools which you can easily source from for performing data wrangling, GIS, visualization and geospatial data exploration tasks.
@@ -49,7 +45,7 @@ Choose this path if you are excited about open data, you are organized and archi
     - A **single theme**. In this scenario, the goal is to construct a coherent database that covers a large extent or series of related extents (i.e. all major cities in X country). In this scenario, the goal will likely involve data concatenation (combining datasets to create a new dataset or series of datasets that are internally consistent). Like the first option, you must demonstrate that such a dataset does not already exist or is not publicly available.
   -	Note that the value added in this project scenario could involve wrangling a dataset to make it usable (applying a relevant classification scheme, etc.)
   -	Your data could be raster, vector, classified satellite imagery, georeferenced data tables, etc. It must be geographic data that is published in an immediately usable form. Your public should be able to easily use your data and know what to expect from it.
-  -	You must demonstrate your data wrangling work (to be done with Python code) inside a Python notebook or in Python scripts. While your public may not run this code, it provides a form of data lineage/documentation for what was done to it. It can also be useful in cases where such datasets need to be processed again (e.g. when new versions are published). Your code must work, and be organized and documented. 
+  -	If you needed to process data you found in any way, you must demonstrate you did this by sharing your code, either from inside a Python notebook or in Python scripts. While your public may not run this code, it provides a form of data lineage/documentation for what was done to it. It can also be useful in cases where such datasets need to be processed again (e.g. when new versions are published). Your code must work, and be organized and documented.
   -	You must publish a metadata file for each data set/layer. This metadata must be a visible part of your web atlas. Your metadata should include at least the following wherever applicable:
     -	*summary/description; spatial data type; source/source url(s); date collected; date published; an explanation of each attribute; extent; spatial resolution; coordinate system; projection (if projected); use limitations/license.*
   -	Your data should be published in a Github repository that contains a README.md file utilizing relevant markdown notation *briefly* explaining the premise of your data curation project, a rationale for why it is necessary, a description of the data contained, etc.
@@ -57,8 +53,8 @@ Choose this path if you are excited about open data, you are organized and archi
 
 ## Grading
 
-- Proposal (5%)
-- Project (95%), consider the following baseline criteria:
+- Proposal (5%). submitted via your `term-project` repository by **March 8, 2023 at 14:45**
+- Project (95%), link to your own personal, public repository or webpage submitted via Moodle by **April 14** at end of day. consider the following baseline criteria:
   - Your code should run without error.
   - It should produce the intended output.
   - There should be documentation that explains its logic.
