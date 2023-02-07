@@ -49,7 +49,7 @@ Choose this path if you are excited about open data, you are organized and archi
   -	You must publish a metadata file for each data set/layer. This metadata must be a visible part of your web atlas. Your metadata should include at least the following wherever applicable:
     -	*summary/description; spatial data type; source/source url(s); date collected; date published; an explanation of each attribute; extent; spatial resolution; coordinate system; projection (if projected); use limitations/license.*
   -	Your data should be published in a Github repository that contains a README.md file utilizing relevant markdown notation *briefly* explaining the premise of your data curation project, a rationale for why it is necessary, a description of the data contained, etc.
-  - You website should be in an *index.html* file in your repository, which should be [published as Github Page](https://geog-464.github.io/resources/github-page-howto.html).
+  - Your website should be published and available publicly online. There are many ways of doing this: You could host it in an *index.html* file in your repository, (which should then be [published as a Github Page](https://geog-464.github.io/resources/github-page-howto.html)); or it could be hosted in a Jupyter notebook and published using one of the tools described under *Researcher*.
 
 ## Grading
 
