@@ -53,7 +53,7 @@ Choose this path if you are excited about open data, you are organized and archi
 
 ## Grading
 
-- Proposal (5%). submitted via your `term-project` repository by **March 8, 2023 at 14:45**
+- Proposal (5%). submitted via your `term-project` repository by **March 15, 2023 at 14:45**
 - Project (95%), link to your own personal, public repository or webpage submitted via Moodle by **April 14** at end of day. consider the following baseline criteria:
   - Your code should run without error.
   - It should produce the intended output.
