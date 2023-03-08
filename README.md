@@ -58,6 +58,7 @@ Choose this path if you are excited about open data, you are organized and archi
 - Proposal (5%). submitted via your `term-project` repository by **March 15, 2023 at 14:45**
 - Project (95%), **your own personal, public repository or webpage** to be submitted as a link via Moodle by **April 14** at end of day. consider the following baseline criteria:
   - [ ] Your work should have a git version history that highlights its progress (enhancements, bug fixes, etc.).
+  - [ ] Any third-party code or data used should be properly cited.
   - [ ] Your code should run without error.
   - [ ] It should produce the intended output.
   - [ ] Your code should reflect what was taught to you in this course.
