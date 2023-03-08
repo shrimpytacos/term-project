@@ -29,12 +29,14 @@ Choose this path if you are excited by tool building and the prospect of sharing
 - Deliverable: A library of GIS and mapping tools with attached documentation. Guidelines and constraints are as follows:
   - Your tasks involve creating a series of tools which you can easily source from for performing data wrangling, GIS, visualization and geospatial data exploration tasks.
   - Your library must be coherent, and make sense as a package (i.e. do not simply cobble together random functions). 
-  - Your code must be accessible via function calls and organized inside a module or series of modules.
+  - Your code must be accessible via function calls and organized inside a module or series of modules that can be easily imported by a programmer.
   -	You must create at minimum 10 separate functions that do not depend on each other (obviously you can have as many dependent or nested functions as you like). You cannot simply package existing methods (e.g. a pandas method) inside your own function and call it a day.
-  - Your functions must be clear about what kind of data they require as inputs. They should be able to accomodate a wide range of input scenarios, and contain proper error handling where relevant.
-  - At least one of your functions must be a useful geovisualization function. If generating static maps, they must have with all necessary map elements (auto-generated titles, scalebar, etc.). Your viz function must be able to receive geodata of any extent or scale, not just Montreal (for example). It is especially encouraged that you explore adding functionality that can accomodate custom zoom levels, etc.
-  -	You must demonstrate relevant use of for loops, conditional statements, positional and keyword arguments, etc.
-  -	Your scripts must be published as a public Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language (English, or multilingual), how to set up and use your code, each function and its required and/or optional parameters (positional, keyword arguments), with links to any relevant external documentation. You may use Github’s Wiki feature if you think the documentation required is complex enough/requires organization into separate pages, but this is not necessary in most cases. You should also fill out all relevant repository fields to make your code as accessible as possible (tags, *about* panel, etc.)
+  - Your functions must be clear about what kind of data they require as inputs and what they are returning (see [type hints](https://docs.python.org/3/library/typing.html)). They should be able to accomodate a wide range of input scenarios, and contain proper [error handling](https://docs.python.org/3/tutorial/errors.html#handling-exceptions) where relevant.
+  - At least one of your functions must be a **geovisualization function**. If generating static maps, they must have all necessary map elements (auto-generated titles, scalebar, etc.). Your viz function must be able to receive geodata of **any extent or scale**.
+  -	You must demonstrate relevant use of for loops, conditional statements, and positional and keyword arguments.
+  -	Your scripts must be published as a public Github repository that contains a README.md file utilizing relevant markdown notation explaining, in sufficient detail and using accessible language (English or multilingual), how to set up and use your code, each function and its required and/or optional parameters (positional/keyword arguments), with links to any relevant external documentation.
+    - You may use Github’s Wiki feature if you think the documentation required is complex enough or requires organization into separate pages, but this is not necessary in most cases.
+    - You should also fill out all relevant repository fields to make your code as accessible as possible (tags, *about* panel, etc.)
 
 ### :mag_right: Data Curator
 
@@ -54,10 +56,11 @@ Choose this path if you are excited about open data, you are organized and archi
 ## Grading
 
 - Proposal (5%). submitted via your `term-project` repository by **March 15, 2023 at 14:45**
-- Project (95%), link to your own personal, public repository or webpage submitted via Moodle by **April 14** at end of day. consider the following baseline criteria:
-  - Your code should run without error.
-  - It should produce the intended output.
-  - There should be documentation that explains its logic.
-  - The documentation should be properly formatted.
-  - Your code should reflect what was taught to you in this course.
-  - Your written work should be of publishable quality.
+- Project (95%), **your own personal, public repository or webpage** to be submitted as a link via Moodle by **April 14** at end of day. consider the following baseline criteria:
+  - [ ] Your work should have a git version history that highlights its progress (enhancements, bug fixes, etc.).
+  - [ ] Your code should run without error.
+  - [ ] It should produce the intended output.
+  - [ ] Your code should reflect what was taught to you in this course.
+  - [ ] There should be documentation that explains its logic.
+  - [ ] The documentation should be properly formatted.
+  - [ ] Your written work should be of publishable quality.
