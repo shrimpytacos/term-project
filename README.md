@@ -1,3 +1,44 @@
+Project proposal: Montreal interactive map depicting the sightings of coyotes and environmental factors that could have an influence on their habitat and population
+
+My research will focus on the presence of coyotes in the area of Montreal as well as how certain factors such as pollution and tree felling affect their habitat and populations. My plan is to represent on a map the green areas, the residential areas, the pollution levels and the coyote sightings. Since coyotes are carnivorous, I want to see if there is a correlation between the presence of pests and pets and the sightings but I haven’t found a data source for this. There is a lot of data available and possible factors so I will have to analyze it first and then put in on the map. I think that putting everything that I mention below might be overwhelming for the viewer.
+
+I found an important source of data on the Montreal « Données ouvertes » website. Among other things, the data collected for coyote sightings includes the time of the day, the coordinates of the sightings and information on whether the animal was eating and what. I also found data on the city green spaces and parks, as well as the city plans of the Montreal territory. Some data that I found on tree populations was; trees in public spaces, as well as tree felling in public spaces. There was available data on environmental pollutants in the water and in the air. Some data that I think is worth analyzing is the areas of concentrated heat in the city (“Îlots de chaleur”) and the areas that are the most vulnerable to climate change.
+
+I would like to understand a little better the presence of these carnivorous animals in urban spaces and I found articles and books in the Concordia library on the subject. One paper is called; “Environmental factors influencing the occurrence of coyotes and conflicts in urban areas” and the other is “Coyotes are 'adapting to urban areas to survive': Pet owners concerned as more sightings are reported, but population remains static.”. I also found a book on city carnivorous animals (which include coyotes); “Urban carnivores : ecology, conflict, and conservation”.
+
+Bibliography
+“Abattage - Arbres Publics Sur Le Territoire De La Ville.” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/abattage-arbres-publics.
+
+Adrianne Murchison -. “Coyotes Are 'Adapting to Urban Areas to Survive': Pet Owners Concerned As More Sightings Are Reported, but Population Remains Static.(Metro).” The Atlanta Journal-Constitution (Atlanta, Ga), vol. B1, 2023, p. 1.
+
+“Arbres Publics Sur Le Territoire De La Ville.” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/arbres.
+
+Gehrt, Stanley D. Urban Carnivores: Ecology, Conflict, and Conservation. Johns Hopkins University Press, 2010.
+
+“Grands Parcs, Parcs D'arrondissements Et Espaces Publics.” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/grands-parcs-parcs-d-arrondissements-et-espaces-publics.
+
+“La Ville De Montréal Lance Une Ligne Info-Coyotes.” Réseau Des Grands Parcs , Ville De Montréal, ville.montreal.qc.ca/portal/page?_pageid=7377%2C95273611&_dad=portal&_schema=PORTAL&id=19417&na=&ret=%2Fpls%2Fportal%2Furl%2Fpage%2Fgrands_parcs_fr%2Frep_utilitaires%2Frep_actualites%2Fcoll_actualites.
+
+“Plans Détaillés D'occupation Du Sol De La Ville De Montréal, 1949.” Données Ouvertes, Ville De Montreal, donnees.montreal.ca/ville-de-montreal/plans-detailles-d-occupation-du-sol-de-la-ville-de-montreal-1949. Poessel, Sharon A., et al. “Environmental Factors Influencing the Occurrence of Coyotes and Conflicts in Urban Areas.”
+
+Landscape and Urban Planning, vol. 157, 2017, pp. 259–269., doi:10.1016/j.landurbplan.2016.05.022.
+
+“Qualité Bactériologique Et Physicochimique Des Ruisseaux Et Plans D'eau Intérieurs (RUISSO) Du Réseau De Suivi Du Milieu Aquatique (RSMA).” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/rsma-donnees-ruisso-annuelle.
+
+“Qualité Des Cours D'eau.” Données Ouvertes, Ville De Montréal, montreal.ca/sujets/qualite-des-cours-deau.
+
+“RSQA - Multi-Polluants (En Continu).” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/rsqa-polluants-gazeux.
+
+“Signalements De Coyotes.” Données Ouverte, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/signalements-de-coyotes.
+
+“Vulnerabilite Changements Climatiques.” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/vulnerabilite-changements-climatiques.
+
+“Îlots De Chaleur.” Données Ouvertes, Ville De Montréal, donnees.montreal.ca/ville-de-montreal/ilots-de-chaleur.
+
+
+
+
+
 # Term project outline
 
 This document contains instructions and guidelines for carrying out your final term project. Use it as an opportunity to explore what interests you, within the constraints outlined below:
